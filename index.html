@@ -106,13 +106,10 @@
             font-size: 14px;
             color: #333;
         }
-
         @media (max-width: 480px) {
             .form-image img {
-                max-width: 95%; /* Use more of the mobile screen */
-                height: auto; /* Maintain aspect ratio */
-                display: block; /* Ensure proper alignment */
-                margin: 0 auto; /* Center the image horizontally */
+                max-width: 90%; /* Scale down image on mobile */
+                margin: 0 auto; /* Center align image on small screens */
             }
         }
     </style>
@@ -123,7 +120,7 @@
         <h1>無料トライアル申し込みフォーム 😍</h1>
         <div class="form-image">
             <img src="applicationimage_jp.jpg" alt="Application Form Image">        
-        <form action="https://formspree.io/f/xeoejnbn" method="POST">
+        <form action="https://formspree.io/f/xrbbnvol" method="POST">
             <div class="form-group">
                 <label for="name">お名前</label>
                 <input type="text" id="name" name="name" placeholder="お名前を入力してください" required>
